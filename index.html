@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- AOS Animation Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+</head>
+<body>
+
+    <header>
+        <h1 class="typing">Hi, I'm <span id="typed-text"></span></h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" data-aos="fade-up">
+        <img src="aditya.jpg" alt="My Photo" style="width:150px; border-radius:50%;">
+        <h2>About Me</h2>
+        <p>Hello! I'm a software engineer in the making. I love coding and building awesome projects.</p>
+        <a href="#projects" class="button">See My Work</a>
+    </section>
+    
+    <section id="projects" data-aos="zoom-in">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card" data-aos="flip-left">
+                <h3>Home automation using arduino 
+                    and android app</h3>
+                <p>Home automation refers to the integration of technology and devices within a 
+                    home to automate and control various functions, such as lighting, heating, ventilation,
+                     air conditioning (HVAC), security, entertainment systems, and appliances. 
+                     The primary goal of home automation is to enhance convenience, comfort, energy efficiency,
+                      and security for homeowners</p>
+            </div>
+            <div class="project-card" data-aos="flip-right">
+                <h3>Solar Tracking System</h3>
+                <p>The aim of project is to ensure the sunlight rays are falling perpendicularly on 
+                    the solar panel to give the maximum solar energy.
+                    Normally a solar panel converts only 30 to 40 percent of the incident radiation 
+into the electrical energy. An automated system is required to get a constant output, which should be 
+capable to constantly rotate the solar panel .The sun tracking system was made as a prototype to solve the problem
+                    </p>
+            </div>
+            <div class="project-card" data-aos="flip-left">
+                <h3>Mini Drone</h3>
+                <p>Monitors weather conditions and detects temperature changes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email:adetyakr@gmail.com<br>
+           Mobile:9955440355
+        </p>
+    </section>
+
+    
+    
+    <script src="script.js"></script>
+    <!-- AOS JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<!-- Particles.js Background -->
+<div id="particles-js"></div>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+
+
+
+</body>
+</html>
